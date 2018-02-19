@@ -5,7 +5,7 @@
   grid-template-columns: 0.3fr 1fr;
 }
 
-.nav {
+#nav-section {
   border: 5px solid red;
 }
 
@@ -14,22 +14,22 @@
 
 }
 
-.profile {
+#profile {
   height: 100vh;
   border: 5px solid blue;
 }
 
-.resume {
+#resume {
   height: 100vh;
   border: 5px solid green;
 }
 
-.portfolio {
+#portfolio {
   height: 100vh;
   border: 5px solid black;
 }
 
-.contact {
+#contact {
   height: 100vh;
   border: 5px solid grey;
 }
