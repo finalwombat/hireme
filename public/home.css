@@ -1,0 +1,35 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
+}
+
+.nav {
+  border: 5px solid red;
+}
+
+.content {
+  overflow-y: scroll;
+
+}
+
+.profile {
+  height: 100vh;
+  border: 5px solid blue;
+}
+
+.resume {
+  height: 100vh;
+  border: 5px solid green;
+}
+
+.portfolio {
+  height: 100vh;
+  border: 5px solid black;
+}
+
+.contact {
+  height: 100vh;
+  border: 5px solid grey;
+}
