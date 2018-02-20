@@ -6,7 +6,7 @@
 }
 
 #nav-section {
-  background: black;
+
 }
 
 .content {
@@ -16,7 +16,11 @@
 
 #profile {
   height: 100vh;
-  border: 5px solid blue;
+  background: #ffbd0a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #resume {
