@@ -71,8 +71,7 @@ hr {
 }
 #experience .blank {
   list-style: none;
-  margin-left: 5px;
-  margin-top: 5px;
+  margin-left: 6px;
   border-left: 1px solid #ededed;
 }
 #experience .blank::before {
