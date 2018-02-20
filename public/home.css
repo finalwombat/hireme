@@ -37,3 +37,10 @@
   height: 100vh;
   border: 5px solid grey;
 }
+
+
+/* Bootstrap*/
+
+.card-img-top {
+  width: 50px;
+}
