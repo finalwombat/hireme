@@ -117,23 +117,22 @@ hr {
 
 .skills .javascript {
   width: 70%;
-  animation: javascript 4s ease-out;
-  transition-delay: 2s;
+  animation: javascript 4s ease-in;
 }
 
 .skills .html {
   width: 70%;
-  animation: html 4s ease-out;
+  animation: html 4s ease-in;
 }
 
 .skills .css {
   width: 60%;
-  animation: css 4s ease-out;
+  animation: css 4s ease-in;
 }
 
 .skills .design {
   width: 50%;
-  animation: design 4s ease-out;
+  animation: design 4s ease-in;
 }
 
 @keyframes javascript {
