@@ -82,6 +82,79 @@ hr {
   padding-left: 50px;
   padding-top: 20px;
 }
+
+.skills {
+  list-style: none;
+  padding-top: 50px;
+  padding-left: 0;
+}
+
+.skills li {
+  margin-bottom:70px;
+  background:#000;
+  height:5px;
+  border-radius:3px;
+  border-left:1px solid #111;
+  border-top:1px solid #111;
+  border-right:1px solid #333;
+  border-bottom:1px solid #333;
+}
+
+.skills span {
+  height:4px;
+  margin: 0;
+  background:#76E31B;
+  position:absolute;
+  box-shadow:0px 0px 10px 1px rgba(0,198,255,0.4);
+}
+
+.skills em {
+  font-family: 'Exo', sans-serif;
+  font-size: 18px;
+  position:relative;
+  top:-30px;
+}
+
+.skills .javascript {
+  width: 70%;
+  animation: javascript 4s ease-out;
+  transition-delay: 2s;
+}
+
+.skills .html {
+  width: 70%;
+  animation: html 4s ease-out;
+}
+
+.skills .css {
+  width: 60%;
+  animation: css 4s ease-out;
+}
+
+.skills .design {
+  width: 50%;
+  animation: design 4s ease-out;
+}
+
+@keyframes javascript {
+  0%  { width:0px;}
+  100%{ width:70%;}
+}
+
+@keyframes html {
+  0%  { width:0px;}
+  100%{ width:70%;}
+}
+
+@keyframes css {
+  0%  { width:0px;}
+  100%{ width:60%;}
+}
+
+@keyframes design {
+  0%  { width:0px;}
+  100%{ width:50%;}
+}
 /* Bootstrap*/
 
 .card-img-top {
