@@ -1,10 +1,16 @@
 #root {
   width: 100vw;
   height: 100vh;
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+  font-size: 1.4em;
   display: grid;
   grid-template-columns: 0.15fr 0.9fr;
 }
 
+h1 {
+  font-weight: 700;
+}
 #nav-section {
 
 }
@@ -30,11 +36,6 @@
   grid-template-columns: repeat(auto-fill, 350px);
   grid-gap: 20px;
   justify-content: space-around;
-}
-
-#portfolio {
-  height: 100vh;
-  border: 5px solid black;
 }
 
 #contact {
@@ -153,6 +154,46 @@ hr {
 @keyframes design {
   0%  { width:0px;}
   100%{ width:50%;}
+}
+
+/* Portfolio*/
+
+#portfolio {
+  background-color: #eeeeee;
+  /*color: #*/
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 100px 1fr 1fr;
+}
+
+#portfolio h1 {
+  grid-column: 2/4;
+  align-self: center;
+  justify-self: center;
+  font-weight: 700;
+}
+
+#example1 {
+  grid-column: 1/5;
+}
+
+#example2 {
+  grid-column: 1/5;
+}
+
+.example {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.description {
+  padding: 50px;
+}
+.image {
+  width: 100%;
+}
+.image img {
+  width: 100%;
 }
 /* Bootstrap*/
 
