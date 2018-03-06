@@ -11,11 +11,10 @@ h1 {
 }
 
 .navbar-brand {
-  padding-top: 50px;
+
 }
 .navbar-nav {
-  padding-top: 20px;
-  padding-bottom: 500px;
+
 }
 .content {
   overflow-y: scroll;
