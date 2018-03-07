@@ -19,6 +19,9 @@ h1 {
   overflow-y: scroll;
 }
 
+.content-section {
+  padding-top: 100px;
+}
 /*Profile*/
 #profile {
   height: 100vh;
@@ -29,12 +32,10 @@ h1 {
   justify-content: center;
 }
 
-#profile .me {
-
-}
-
 #resume {
   background: #ededed;
+}
+#resume .card-columns{
   padding-top: 20px;
   padding-bottom: 20px;
   display: grid;
@@ -42,6 +43,8 @@ h1 {
   grid-gap: 20px;
   justify-content: space-around;
 }
+
+#resume .card {}
 
 
 /* Resume cards*/
