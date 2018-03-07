@@ -38,13 +38,16 @@ h1 {
 #resume .card-columns{
   padding-top: 20px;
   padding-bottom: 20px;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 350px);
-  grid-gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
   justify-content: space-around;
 }
 
-#resume .card {}
+#resume .card {
+  max-width: 400px;
+  border: 1px solid grey;
+}
 
 
 /* Resume cards*/
