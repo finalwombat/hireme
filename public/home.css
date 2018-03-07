@@ -224,6 +224,7 @@ hr {
 /*contact*/
 
 .contact {
+  padding-top: 10px;
 }
 .contact-links {
   list-style: none;
@@ -234,7 +235,7 @@ hr {
 }
 
 .icon {
-  color: #fff;
+
 }
 
 .fa-github {
@@ -245,6 +246,7 @@ hr {
    -webkit-transition:.5s;
    transition: .5s;
    /*background-color: #322f30;*/
+   color: black;
 }
 .fa-github:hover {
     background-color: red;
@@ -263,10 +265,11 @@ hr {
     background-color: #3d5b99;
 }
 .contact .email {
-  color: white;
+  color: inherit;
   text-decoration: none;
   padding-left: 14px;
   padding-bottom: 10px;
+  padding-right: 10px;
   -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
