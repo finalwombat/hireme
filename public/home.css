@@ -13,6 +13,7 @@ h1 {
 #nav-section {
   position: fixed;
   z-index: 1;
+  width: 100vw;
 }
 .content {
   overflow-y: scroll;
