@@ -170,30 +170,22 @@ hr {
 
 #portfolio {
   background-color: #eeeeee;
-  /*color: #*/
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 100px 1fr 1fr;
 }
 
 #portfolio h1 {
-  grid-column: 2/4;
-  align-self: center;
-  justify-self: center;
+  text-align: center;
   font-weight: 700;
 }
 
 #example1 {
-  grid-column: 1/5;
+  display: flex;
 }
 
 #example2 {
-  grid-column: 1/5;
+  display: flex;
 }
 
 .example {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
 }
 
 .description {
