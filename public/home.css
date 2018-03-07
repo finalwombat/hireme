@@ -10,11 +10,9 @@ h1 {
   font-weight: 700;
 }
 
-.navbar-brand {
-
-}
-.navbar-nav {
-
+#nav-section {
+  position: fixed;
+  z-index: 1;
 }
 .content {
   overflow-y: scroll;
