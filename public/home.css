@@ -32,6 +32,11 @@ h1 {
   justify-content: center;
 }
 
+#profile h1 {
+  font-size: 3em;
+  font-weight: 500;
+}
+
 #resume {
   background: #ededed;
 }
@@ -258,7 +263,7 @@ hr {
     background-color: #3d5b99;
 }
 .contact .email {
-  color: inherit;
+  color: #4d5061;
   text-decoration: none;
   padding-left: 14px;
   padding-bottom: 10px;
@@ -271,4 +276,13 @@ hr {
 }
 .contact .email:hover {
   background-color: #BADA50;
+}
+
+/* Nav */
+.navbar{
+  background: #CDD1C4;
+}
+
+.navbar .nav-link {
+  color: #4d5061;
 }
