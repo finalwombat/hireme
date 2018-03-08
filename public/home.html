@@ -21,18 +21,164 @@
     -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    <link rel="stylesheet" href="home.css">
     <title>Home</title>
   </head>
   <body>
-    <noscript>
-      You need to enable JavaScript to run this app.
-    </noscript>
     <div id="root">
-      <div id="nav-section">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="true">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="resume-tab" data-toggle="tab" href="#resume" role="tab" aria-controls="resume" aria-selected="false">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="portfolio-tab" data-toggle="tab" href="#portfolio" role="tab" aria-controls="portfolio" aria-selected="false">Portfolio</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+          <div id="profile" class="tab-pane fade show active" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="profileContent">
+              <h1>Jay Kelly</h1>
+              <h2>Web design and development</h2>
+              <p>Hi, I'm Jay Kelly, a full-stack Javascript developer.</p>
+            </div>
+          </div>
+          <div id="resume" class="tab-pane fade" role="tabpanel" aria-labelledby="resume-tab">
+            <h1>Resume</h1>
+            <div class="card-columns">
+              <div class="card  "  id="about">
+                <img class="card-img-top" src="./img/bubble.svg" alt="card image cap">
+                <div class="card-body">
+                  <h2 class="card-title">Hi, I'm Jay</h2>
+                  <h3>Objective</h3>
+                  <p class="card-text">I am seeking a position where I can further
+                    develop my technical skills in web and application development
+                    while contributing in a meaningful way to real world projects.
+                    I have had many different jobs in my life. While each position
+                    offered it’s own set of experiences and challenges, software
+                    development is where my passion lies. Programming offers the
+                    ability to solve complex problems and be creative whilst working
+                    on something that can effect peoples lives in a positive way.
+                    I am a quick learner and dedicated to improving my skills and
+                    constantly learning in my free time. If you would like to hire
+                    someone who really wants to be there and is passionate about the
+                    work than look no further.
+                  </p>
+                  <h3>Education</h3>
+                  <p class="card-text">
+                    Bachelor of Information Technology
+                    RMIT, Melbourne, VIC
+                    Major: Programming
+                    Graduated: 2017
+                  </p>
+                </div>
+              </div>
+              <div class="card" id="specialties">
+                <img class="card-img-top" src="./img/mouse.svg" alt="card image cap">
+                <div class="card-body">
+                  <h2 class="card-title">My Specialties</h2>
+                  <h6><img src="./img/laptop.svg" alt="">Front-End Development</h6>
+                  <p class="small-p">HTML / CSS development with modern Javascript frameworks - React and
+                  Angular</p>
+                  <hr>
+                  <h6><img src="./img/server.svg" alt="">Back-End Development</h6>
+                  <p class="small-p">server-Side applications with Node.js, PHP, .Net</p>
+                  <hr>
+                  <h6><img src="./img/content.svg" alt="">CMS</h6>
+                  <p class="small-p">Content management with Magento, Wordpress and Joomla</p>
+                </div>
+              </div>
+              <div class="card" id="experience">
+                <img class="card-img-top" src="./img/paper.svg" alt="card image cap">
+                <div class="card-body">
+                  <h2 class="card-title">Work & Experience</h2>
+                  <ul>
+                    <li class="blank"></li>
+                    <li>January 2016 - Current</li>
+                    <div class="blank experience-content">
+                      <h3>Freelance Web Development</h3>
+                      <p>Website maintenance, repair and full site development.</p>
+                    </div>
+                    <li>September 2015 – January 2016</li>
+                    <div class="blank experience-content">
+                      <h3>Web Content Management</h3>
+                      <h5>Dynamical Pty Ltd Beerwah QLD</h5>
+                      <p>My role in this position was to assist in the management of
+                         product content for several online retail stores. The content
+                         management system used in this position was Magento.
+                       </p>
+                    </div>
+                  </ul>
+                </div>
+              </div>
+              <div class="card" id="skills">
+                <img class="card-img-top" src="./img/target.svg" alt="card image cap">
+                <div class="card-body">
+                  <h2 class="card-title">Skills & Attributes</h2>
+                  <ul class="skills">
+                    <li><span class="javascript"></span><em>Javascript</em></li>
+                    <li><span class="html"></span><em>HTML</em></li>
+                    <li><span class="css"></span><em>CSS</em></li>
+                    <li><span class="design"></span><em>Website & UI Design</em></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card" id="hobbies">
+                <img class="card-img-top" src="./img/surfboard.svg" alt="card image cap">
+                <div class="card-body">
+                  <h2 class="card-title">Hobbies & Interests</h2>
+                  <ul class="list-group">
+                    <li class="list-group-item">Surfing</li>
+                    <li class="list-group-item">Programming</li>
+                    <li class="list-group-item">Guitar</li>
+                    <li class="list-group-item">IOT development</li>
+                    <li class="list-group-item">Chess</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="portfolio" class="tab-pane fade" role="tabpanel" aria-labelledby="portfolio-tab">
+            <h1>My Work</h1>
+            <div class="example" id="example1">
+              <div class="description">
+                <h1>Freedom Energy</h1>
+                <h3>UI Design, React.js / Node.js</h3>
+                <p>This website was built for a solar
+                  instillation business. The technologies used were
+                  React.js with a Node.js backend. </p>
+                <button>Visit Website</button>
+              </div>
+              <div class="image">
+                <img src="./img/freedom.png" alt="">
+              </div>
+            </div>
+            <div class="example" id="example2">
+              <div class="image">
+                <img src="./img/gotya.png" alt="">
+              </div>
+              <div class="description">
+                <h1>Gotya Photography</h1>
+                <h3>UI Design, HTML / Node.js</h3>
+                <p>This website was designed as a showcase for a local
+                  Sunshine Coast photographer. The site connects to the
+                  Flickr API to allow the photographer to manage the site’s
+                  images directly through Flickr. This enables the client to
+                  manage the site’s content without the need for a content
+                  management system or accessing the site’s code. </p>
+                <button>Visit Website</button>
+              </div>
+            </div>
+          </div>
+      </div>
+
+
+      <!-- <div id="nav-section">
         <nav class="navbar navbar-expand-lg">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -79,7 +225,7 @@
           <h2>Web design and development</h2>
           <p>Hi, I'm Jay Kelly, a full-stack Javascript developer.</p>
         </div>
-        <div id="resume" class="content-section">
+        <div id="resume" class="content-section tab-pane fade" role="tabpanel" aria-labelledby="resume-tab">
           <h1>Resume</h1>
           <div class="card-columns">
             <div class="card  "  id="about">
@@ -206,7 +352,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
     </div>
   </body>
