@@ -218,66 +218,12 @@ hr {
   margin-bottom: 50px;
 }
 
-/*contact*/
-
-.contact {
-  padding-top: 10px;
-}
-.contact-links {
-  list-style: none;
-  /*background-color: #322f30;*/
-  display: flex;
-  flex-direction: row;
-  align-content: space-around;
-}
-
-.icon {
-
-}
-
-.fa-github {
-  padding: 10px 14px;
-   -o-transition:.5s;
-   -ms-transition:.5s;
-   -moz-transition:.5s;
-   -webkit-transition:.5s;
-   transition: .5s;
-   /*background-color: #322f30;*/
-   color: black;
-}
-.fa-github:hover {
-    background-color: red;
-}
-
-.fa-facebook {
-    padding:10px 14px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    /*background-color: #322f30;*/
-}
-.fa-facebook:hover {
-    background-color: #3d5b99;
-}
-.contact .email {
-  color: #4d5061;
-  text-decoration: none;
-  padding-left: 14px;
-  padding-bottom: 10px;
-  padding-right: 10px;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition: .5s;
-}
-.contact .email:hover {
-  background-color: #BADA50;
-}
-
 /* Nav */
+
+.topnav {
+  background: #CDD1C4;
+  display: flex;
+}
 .nav{
   background: #CDD1C4;
 }
@@ -296,4 +242,68 @@ hr {
 .nav .nav-link.active {
   background-color: grey;
   border: none;
+}
+
+/*contact*/
+
+.contact-links {
+  list-style: none;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+}
+
+.icon {
+
+}
+
+.fa-github {
+  height: 100%;
+  padding: 10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  /*background-color: #322f30;*/
+  color: black;
+}
+.fa-github:hover {
+    background-color: red;
+}
+
+.fa-facebook {
+  height: 100%;
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  /*background-color: #322f30;*/
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.contact-links .email {
+  height: 100%;
+  color: #4d5061;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 14px;
+  padding-right: 10px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+}
+.contact-links .email:hover {
+  background-color: #BADA50;
+  height: 100vh;
 }
