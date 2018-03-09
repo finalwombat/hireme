@@ -222,6 +222,7 @@ hr {
 
 .topnav {
   background: #CDD1C4;
+  height: 40px;
   display: flex;
 }
 .nav{
@@ -248,18 +249,13 @@ hr {
 
 .contact-links {
   list-style: none;
-  height: 100%;
   margin: 0;
   padding: 0;
+  height: 100%;
   margin-left: auto;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-self: center;
-}
-
-.icon {
-
+  align-items: center;
 }
 
 .fa-github {
@@ -294,9 +290,12 @@ hr {
   height: 100%;
   color: #4d5061;
   text-decoration: none;
-  text-align: center;
-  padding-left: 14px;
+  text-align: justify;
+  margin: 0;
   padding-right: 10px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 10px;
   -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
@@ -305,5 +304,4 @@ hr {
 }
 .contact-links .email:hover {
   background-color: #BADA50;
-  height: 100vh;
 }
