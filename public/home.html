@@ -29,17 +29,33 @@
   </head>
   <body>
     <div id="root">
-      <ul class="nav nav-tabs" id="myTab" role="tablist">
-        <li class="nav-item">
-          <a class="nav-link active" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="true">Home</a>
+      <div class="topnav">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="true">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="resume-tab" data-toggle="tab" href="#resume" role="tab" aria-controls="resume" aria-selected="false">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="portfolio-tab" data-toggle="tab" href="#portfolio" role="tab" aria-controls="portfolio" aria-selected="false">Portfolio</a>
+          </li>
+        </ul>
+        <ul class="contact-links">
+          <li><a href="" class="icon">
+            <i class="fa fa-github"></i>
+          </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" id="resume-tab" data-toggle="tab" href="#resume" role="tab" aria-controls="resume" aria-selected="false">Resume</a>
+        <li>
+          <a href="" class="icon">
+            <i class="fa fa-facebook"></i>
+          </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" id="portfolio-tab" data-toggle="tab" href="#portfolio" role="tab" aria-controls="portfolio" aria-selected="false">Portfolio</a>
+        <li>
+          <a href="" class="email">comital333@gmail.com</a>
         </li>
-      </ul>
+        </ul>
+      </div>
       <div class="tab-content" id="myTabContent">
           <div id="profile" class="tab-pane fade show active" role="tabpanel" aria-labelledby="profile-tab">
             <div class="profileContent">
@@ -178,7 +194,7 @@
       </div>
 
 
-      <!-- <div id="nav-section">
+      <div id="nav-section">
         <nav class="navbar navbar-expand-lg">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -352,7 +368,7 @@
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
 
     </div>
   </body>
