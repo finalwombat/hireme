@@ -207,19 +207,32 @@ hr {
   font-weight: 700;
 }
 
-#example1 {
-  display: flex;
-}
-
-#example2 {
-  display: flex;
-}
-
 .example {
+  display: flex;
+  color: #f1f1f1;
+}
+
+.example button{
+  align-self: center;
+  width: 150px;
+  color: white;
+  background-color: black;
+  border-radius: 50px;
+  border: none;
+  padding: 5px;
+}
+
+.example button:hover {
+  position:relative;
+  top: -2px;
+  cursor: pointer;
 }
 
 .description {
   padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .image {
   width: 100%;
