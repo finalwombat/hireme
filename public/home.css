@@ -241,7 +241,8 @@ hr {
 }
 
 .nav .nav-link.active {
-  background-color: grey;
+  background-color: inherit;
+  outline: none;
   border: none;
 }
 
