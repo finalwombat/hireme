@@ -78,12 +78,19 @@ h1 {
   text-align: center;
 }
 #resume .card {
-  max-width: 400px;
+  max-width: 300px;
   border: 1px solid grey;
 }
 
 
 /* Resume cards*/
+
+.card-columns {
+  padding-top: 20px;
+}
+.card {
+  max-width: 100px;
+}
 h6 img {
   width: 40px;
   margin-left: 20px;
@@ -118,6 +125,7 @@ hr {
 #experience .blank::before {
   content: "";
 }
+
 
 .experience-content {
   padding-left: 50px;
@@ -250,6 +258,7 @@ hr {
 
 .card {
   border: none;
+  max-width: 100px;
 }
 
 .card-title {
