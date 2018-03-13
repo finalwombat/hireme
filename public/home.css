@@ -32,6 +32,7 @@ h3 {
 
 /*Profile*/
 #profile {
+  height: 100vh;
   background: #ffb347;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #ffcc33, #ffb347);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #ffcc33, #ffb347); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -47,7 +48,7 @@ h3 {
   background: linear-gradient(to right, #43cea2, #185a9d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-#profile::after {
+/*#profile::after {
   content: "";
   background-image: url("./img/code.jpg");
   opacity: 0.08;
@@ -56,8 +57,7 @@ h3 {
   bottom: 0;
   right: 0;
   position: absolute;
-  /*z-index: -1;*/
-}
+}*/
 
 #profile .profileContent{
   height: 100vh;
@@ -225,6 +225,8 @@ hr {
 
 .example {
   display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
   color: #f1f1f1;
 }
 
@@ -245,13 +247,15 @@ hr {
 }
 
 .description {
+  max-width: 500px;
   padding: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .image {
-  width: 100%;
+  max-width: 500px;
+  display: flex;
 }
 .image img {
   width: 100%;
@@ -277,12 +281,13 @@ hr {
 /* Nav */
 
 .topnav {
-  background: #CDD1C4;
+  background: #ffb347;
   height: 40px;
   display: flex;
 }
 .nav{
-  background: #CDD1C4;
+  background: #ffb347;
+  border: none;
 }
 
 .nav .nav-item {
