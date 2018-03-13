@@ -15,6 +15,14 @@ h1 {
   font-weight: 700;
 }
 
+h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
 /*#nav-section {
   position: fixed;
   z-index: 1;
@@ -42,7 +50,7 @@ h1 {
 #profile::after {
   content: "";
   background-image: url("./img/code.jpg");
-  opacity: 0.05;
+  opacity: 0.08;
   top: 50px;
   left: 0;
   bottom: 0;
@@ -78,7 +86,7 @@ h1 {
   text-align: center;
 }
 #resume .card {
-  max-width: 300px;
+  max-width: 350px;
   border: 1px solid grey;
 }
 
@@ -128,7 +136,7 @@ hr {
 
 
 .experience-content {
-  padding-left: 50px;
+  padding-left: 20px;
   padding-top: 20px;
 }
 
