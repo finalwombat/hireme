@@ -307,6 +307,24 @@ hr {
   border: none;
 }
 
+.nav-mobile {
+  display: none;
+}
+.menu-button {
+  display:none; /* Hide from browsers that don't support media queries */
+  cursor:pointer;
+  position:absolute;
+  top:0;
+  left:0;
+  background: url(../img/nav.svg) no-repeat center center;
+  height:40px;
+  width:40px;
+  border-radius:5px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+}
+
+
 /*contact*/
 
 .contact-links {
@@ -366,4 +384,32 @@ hr {
 }
 .contact-links .email:hover {
   background-color: #BADA50;
+}
+
+/* Mobile */
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+
+  .nav {
+    display: none;
+  }
+  .contact-links {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: block;
+  }
+  .mobile-menu .nav.active {
+    display: block;
+    float: none;
+    position: relative;
+    padding-top: 10px;
+    z-index: 100;
+  }
+  .menu-button {
+    position: relative;
+    display: block;
+  }
+
 }
