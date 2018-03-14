@@ -255,7 +255,6 @@ hr {
 }
 .image {
   max-width: 500px;
-  display: flex;
 }
 .image img {
   width: 100%;
