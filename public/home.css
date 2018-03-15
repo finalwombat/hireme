@@ -411,4 +411,9 @@ hr {
     display: block;
   }
 
+ .profileContent h2 {
+    font-size: 1.3em;
+    padding: 0;
+  }
+
 }
