@@ -282,7 +282,10 @@ hr {
 .topnav {
   background: #ffb347;
   height: 40px;
+  width: 100%;
   display: flex;
+  position: fixed;
+  z-index: 1;
 }
 .nav{
   background: #ffb347;
