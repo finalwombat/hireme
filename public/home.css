@@ -296,15 +296,21 @@ hr {
   border: none;
 }
 
-.nav .nav-link:hover {
-  border: black;
+.nav .nav-link {
+  border: none;
 }
 .nav .nav-link {
-  color: #4d5061;
+  color: #7c7e82;
 }
+
+.nav .nav-link:hover {
+  color: black;
+}
+
 
 .nav .nav-link.active {
   background-color: inherit;
+  color: black;
   outline: none;
   border: none;
 }
