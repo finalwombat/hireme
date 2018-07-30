@@ -267,7 +267,43 @@ hr {
 
 /* side projects */
 
+.project {
+  padding-top: 70px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  color: #f1f1f1;
+}
 
+.project button{
+  align-self: center;
+  width: 150px;
+  color: white;
+  background-color: black;
+  border-radius: 50px;
+  border: none;
+  padding: 5px;
+}
+
+.project button:hover {
+  position:relative;
+  top: -2px;
+  cursor: pointer;
+}
+
+.description {
+  max-width: 500px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.project .image {
+  max-width: 300px;
+}
+.image img {
+  width: 100%;
+}
 /* Bootstrap*/
 
 .card-img-top {
