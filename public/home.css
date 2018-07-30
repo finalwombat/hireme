@@ -268,7 +268,6 @@ hr {
 /* side projects */
 
 .project {
-  padding-top: 70px;
   display: flex;
   flex-wrap: wrap-reverse;
   justify-content: center;
@@ -299,6 +298,7 @@ hr {
   justify-content: center;
 }
 .project .image {
+  padding-top: 70px;
   max-width: 300px;
 }
 .image img {
