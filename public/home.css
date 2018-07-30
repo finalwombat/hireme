@@ -221,6 +221,7 @@ hr {
 
 #portfolio {
   background-color: #eeeeee;
+  padding-top: 70px;
 }
 
 #portfolio h1 {
@@ -264,6 +265,7 @@ hr {
 .image img {
   width: 100%;
 }
+
 
 /* side projects */
 
