@@ -47,6 +47,11 @@ h3 {
   background: -webkit-linear-gradient(to right, #43cea2, #185a9d); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #43cea2, #185a9d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+#sideProjects {
+  background: #BADA50; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #BADA50, #89a332); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #BADA50, #89a332); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
 /*#profile::after {
   content: "";
@@ -259,6 +264,46 @@ hr {
 .image img {
   width: 100%;
 }
+
+/* side projects */
+
+.project {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  color: #f1f1f1;
+}
+
+.project button{
+  align-self: center;
+  width: 150px;
+  color: white;
+  background-color: black;
+  border-radius: 50px;
+  border: none;
+  padding: 5px;
+}
+
+.project button:hover {
+  position:relative;
+  top: -2px;
+  cursor: pointer;
+}
+
+.description {
+  max-width: 500px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.project .image {
+  padding-top: 70px;
+  max-width: 300px;
+}
+.image img {
+  width: 100%;
+}
 /* Bootstrap*/
 
 .card-img-top {
@@ -296,15 +341,21 @@ hr {
   border: none;
 }
 
-.nav .nav-link:hover {
-  border: black;
+.nav .nav-link {
+  border: none;
 }
 .nav .nav-link {
-  color: #4d5061;
+  color: #7c7e82;
 }
+
+.nav .nav-link:hover {
+  color: black;
+}
+
 
 .nav .nav-link.active {
   background-color: inherit;
+  color: black;
   outline: none;
   border: none;
 }
