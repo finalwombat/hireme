@@ -238,7 +238,7 @@ hr {
 
 .example button{
   align-self: center;
-  width: 150px;
+  width: 150px; width: 100%;
   color: white;
   background-color: black;
   border-radius: 50px;
@@ -251,7 +251,6 @@ hr {
   top: -2px;
   cursor: pointer;
 }
-
 .description {
   max-width: 500px;
   padding: 50px;
@@ -262,7 +261,7 @@ hr {
 .image {
   max-width: 500px;
 }
-.image img {
+#portfolio .image img {
   width: 100%;
 }
 
@@ -270,6 +269,8 @@ hr {
 /* side projects */
 
 .project {
+  width: 100%;
+  padding: 30px;
   display: flex;
   flex-wrap: wrap-reverse;
   justify-content: center;
@@ -278,12 +279,12 @@ hr {
 
 .project button{
   align-self: center;
-  width: 150px;
+  min-width: 150px;
   color: white;
   background-color: black;
   border-radius: 50px;
   border: none;
-  padding: 5px;
+  padding: 10px;
 }
 
 .project button:hover {
@@ -293,7 +294,7 @@ hr {
 }
 
 .description {
-  max-width: 500px;
+  width: 50%;
   padding: 50px;
   display: flex;
   flex-direction: column;
@@ -301,10 +302,13 @@ hr {
 }
 .project .image {
   padding-top: 70px;
-  max-width: 300px;
+  width: 50%;
 }
-.image img {
+#project1 .image img {
   width: 100%;
+}
+.project .image img {
+ width: 70%;
 }
 /* Bootstrap*/
 
